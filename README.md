@@ -1,4 +1,6 @@
-# nuxt-test
+# nuxt-template
+
+基于 nuxt 的项目模板
 
 ## Build Setup
 
