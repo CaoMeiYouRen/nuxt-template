@@ -52,7 +52,20 @@ export default {
     ],
 
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
-    axios: {},
+    axios: {
+        proxy: true, // 表示开启代理
+        // credentials: true, // 表示跨域请求时是否需要使用凭证
+    },
+    proxy: {
+        // '/api': { // 配置代理
+        //     target: 'https://api.example.com/',
+        //     ws: true,
+        //     changOrigin: true,
+        //     pathRewrite: {
+        //         '^/api': '/',
+        //     },
+        // },
+    },
 
     // Content module configuration: https://go.nuxtjs.dev/config-content
     content: {},
