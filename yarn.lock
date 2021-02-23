@@ -4425,10 +4425,10 @@ eslint-ast-utils@^1.1.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-cmyr@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.npm.taobao.org/eslint-config-cmyr/download/eslint-config-cmyr-1.1.2.tgz#ae7daf139272a899032fdfb5ac1fec96bf1d35c7"
-  integrity sha1-rn2vE5JyqJkDL9+1rB/slr8dNcc=
+eslint-config-cmyr@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-cmyr/-/eslint-config-cmyr-1.1.4.tgz#39426c95ed38b652c5992a1fded16b73eca6aee5"
+  integrity sha512-oxz7q3bzN93ZJI/y9V25+uOTFMqGxwlXA6xrdrCm4cSDy8kfwdsp8porgBYJGmrSHo5fWDAm7WRm5sHn9MSeaw==
 
 eslint-config-standard@^16.0.1:
   version "16.0.2"
