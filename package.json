@@ -11,7 +11,8 @@
     "generate": "nuxt-ts generate",
     "lint:js": "cross-env NODE_ENV=production eslint --fix --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint:style": "cross-env NODE_ENV=production stylelint \"**/*.{vue,css,scss}\" --ignore-path .gitignore --syntax scss --custom-syntax postcss-html --fix",
-    "lint": "npm run lint:js && npm run lint:style"
+    "lint": "npm run lint:js && npm run lint:style",
+    "prepare": "husky install"
   },
   "lint-staged": {
     "*.{js,ts,vue}": "cross-env NODE_ENV=production eslint --fix --ext \".js,.ts,.vue\"",
@@ -19,7 +20,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "commit-msg": "commitlint",
       "pre-commit": "lint-staged"
     }
   },
@@ -47,7 +48,7 @@
     "eslint-config-cmyr": "^1.1.8",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.7.0",
-    "husky": "^5.1.3",
+    "husky": "^6.0.0",
     "lint-staged": "^10.5.3",
     "stylelint": "^13.12.0",
     "stylelint-config-cmyr": "^0.2.1",
