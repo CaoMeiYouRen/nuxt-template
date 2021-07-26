@@ -48,7 +48,7 @@
     "eslint-config-cmyr": "^1.1.11",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.7.0",
-    "husky": "^6.0.0",
+    "husky": "^7.0.1",
     "lint-staged": "^10.5.3",
     "stylelint": "^13.12.0",
     "stylelint-config-cmyr": "^0.2.1",
