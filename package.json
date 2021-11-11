@@ -45,7 +45,7 @@
     "babel-eslint": "^10.1.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.2.0",
-    "eslint-config-cmyr": "^1.1.12",
+    "eslint-config-cmyr": "^1.1.13",
     "eslint-plugin-nuxt": "^3.0.0",
     "eslint-plugin-vue": "^7.20.0",
     "husky": "^7.0.4",
