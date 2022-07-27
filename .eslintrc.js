@@ -29,5 +29,6 @@ module.exports = {
         'no-unused-vars': [0],
         '@typescript-eslint/explicit-function-return-type': [0], // 要求函数和类方法的显式返回类型
         '@typescript-eslint/explicit-module-boundary-types': [0], // 要求导出函数和类的公共类方法的显式返回和参数类型
+        'vue/no-v-text-v-html-on-component': [0], // 禁止组件上的 v-text / v-html
     },
 }
