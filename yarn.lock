@@ -8432,7 +8432,7 @@ nanoid@^3.1.20:
   resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha1-utwmPGsdzxS3HvqoX2q0wdbPx4g=
 
-nanoid@^3.3.3, nanoid@^3.3.4:
+nanoid@^3.3.4:
   version "3.3.4"
   resolved "https://registry.npmmirror.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
@@ -9910,10 +9910,10 @@ postcss-sorting@^5.0.1:
     lodash "^4.17.14"
     postcss "^7.0.17"
 
-postcss-sorting@^7.0.1:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-7.0.1.tgz#923b5268451cf2d93ebf8835e17a6537757049a5"
-  integrity sha512-iLBFYz6VRYyLJEJsBJ8M3TCqNcckVzz4wFounSc5Oez35ogE/X+aoC5fFu103Ot7NyvjU3/xqIXn93Gp3kJk4g==
+postcss-sorting@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-sorting/-/postcss-sorting-8.0.0.tgz#3dde199de2e47d16eb3f3b44d32e567ffec2d715"
+  integrity sha512-jM5m9ko8XAP1clKldYqDeVQHsr9O1/SsnMWWHYpHJ2FzoiFHySIzqyuvDo8Zo+ovuCZfu/ViDlBgIUXmcDtyUw==
 
 postcss-svgo@^4.0.2:
   version "4.0.2"
@@ -9987,19 +9987,10 @@ postcss@7.x.x, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.13, postcss@^7.0.14,
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-postcss@^8.3.11:
-  version "8.4.13"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.13.tgz#7c87bc268e79f7f86524235821dfdf9f73e5d575"
-  integrity sha512-jtL6eTBrza5MPzy8oJLFuUscHDXTV5KcLlqAWHl5q5WYRfnNRGSmOZmOZ1T6Gy7A99mOZfqungmZMpMmCVJ8ZA==
-  dependencies:
-    nanoid "^3.3.3"
-    picocolors "^1.0.0"
-    source-map-js "^1.0.2"
-
-postcss@^8.4.0, postcss@^8.4.14:
-  version "8.4.14"
-  resolved "https://registry.npmmirror.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
-  integrity sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==
+postcss@^8.4.0, postcss@^8.4.14, postcss@^8.4.20:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
@@ -11640,13 +11631,13 @@ stylelint-order@^4.0.0:
     postcss "^7.0.31"
     postcss-sorting "^5.0.1"
 
-stylelint-order@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-5.0.0.tgz#abd20f6b85ac640774cbe40e70d3fe9c6fdf4400"
-  integrity sha512-OWQ7pmicXufDw5BlRqzdz3fkGKJPgLyDwD1rFY3AIEfIH/LQY38Vu/85v8/up0I+VPiuGRwbc2Hg3zLAsJaiyw==
+stylelint-order@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-6.0.0.tgz#2c3b26acc479f7376bbafe4534cfb1246960055c"
+  integrity sha512-kRe3jv9gP9bN/puzaxWtQmjPSPC18n09DMRXv1HsW0nR8TDDCV+eo+a058A6GoogfV0qcAIZG4s2/4oyuaFqZA==
   dependencies:
-    postcss "^8.3.11"
-    postcss-sorting "^7.0.1"
+    postcss "^8.4.20"
+    postcss-sorting "^8.0.0"
 
 stylelint-scss@^3.18.0:
   version "3.21.0"
